@@ -110,7 +110,6 @@ def display_saved_strategies(ticker, start_date, end_date, cash, commission):
 
     if table_data:
         df = pd.DataFrame(table_data)
-        st.dataframe(df.style.highlight_max(subset=['Total Return', 'Win Rate'], color='lightgreen')
-                            
+        st.dataframe(df.style.highlight_max(subset=['Total Return', 'Win Rate'], color='lightgreen')                 
     else:
         st.write("No performance data available for saved strategies.")
