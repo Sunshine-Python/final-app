@@ -49,7 +49,7 @@ def main():
         
         strategy_groups = {
             'Momentum': ['RSI Cross', 'MACD', 'Stochastic', 'Momentum'],
-            'Trend': ['SMA Cross', 'ADX', 'DPO', 'CCI'],
+            'Trend': ['ADX', 'DPO', 'CCI'],
             'Volume': ['VWAP', 'OBV'],
             'Volatility': ['Bollinger Bands', 'ATR', 'Standard Deviation'],
             'Mean Reversion': ['Mean Reversion']
